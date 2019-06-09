@@ -12,7 +12,7 @@ console.log("Function was invoked!")
 //   return param;
 // };
 // anotherFunction("Example");
-let anotherFunction = (param1) => {
+let anotherFunction = param1 => {
     return param1;
 }
 console.log(anotherFunction("Example"))
